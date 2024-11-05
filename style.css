@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(pexels-madelynemery-954677.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    width: 200px;
+    padding: 13px 0;
+    text-align: center;
+    margin: 0 30px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #000;
+    background: transparent;
+    background-color: #FFA800;
+    color: #000;
+    cursor: pointer;
+
+}
+.btn:hover{
+    transition: 0.5s;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.logo{
+    width: 9%;
+    cursor: pointer;
+    margin: 10px 0 0 50px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    position: relative;
+}
+.navbar ul li a{
+    font-family: "Bebas Neue", serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: #FFA800;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    font-family: "Bebas Neue", serif;
+   
+}
+.yellow-heading{
+    font-size: 70px;
+    line-height: 30px;
+    color: #FFA800;
+    font-family: "Bebas Neue", serif;
+}
+.content p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.btn-1{
+    width: 200px;
+    padding: 13px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #FFA800;
+    background: transparent;
+    color: #FFA800;
+    cursor: pointer;
+}
+.btn-1:hover{
+    transition: 0.5s;
+    background-color: #FFA800;
+    color: #000;
+    border: 2px solid #000;
+}
+.home-image{
+    
+    width: 100%;
+    margin:130px;
+  
+    
+}
+.home-image img{
+    width: 50%;
+    height: 80%;
+}
+.welcome-message {
+  background-color: #000000;
+  color: #fff;
+  padding: 25px;
+  border: 1px solid black;
+  margin: -287px 0 0  641px;
+  width: 30%;
+  height: 50vh;
+}
+
+.welcome-message h1 {
+    font-size: 46px;
+  font-family: "Bebas Neue", serif;
+}
+.yellow-heading-1{
+    color: #FFA800;
+    line-height: 25px;
+    font-family: "Bebas Neue", serif;
+}
+
+.welcome-message p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Bebas Neue", serif;
+}
+.welcome-message .btn{
+   margin: 20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
